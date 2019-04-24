@@ -1,0 +1,52 @@
+// .screen1
+// {
+//   // background-color: $mycolor
+//    background-color: mix($blue,$green,48%);
+//
+// }
+// .abc {
+//     height: 1100px;
+//     width: 2000px;
+//     //background-color: mix($blue,$green,48%);
+//
+//     background: linear-gradient(to bottom, #808000 0%, #ffffff 100%);
+// }
+
+body
+{
+  font-family: Ubuntu;
+  color: #fff;
+}
+
+.logo
+{
+  color: orange;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#indexSection
+{
+  /* background-color: #ffddff; */
+  background: linear-gradient(to bottom, #4863A0 0%, #57FEFF 100%);
+}
+
+.container-fluid
+{
+  padding: 2% 12%;
+}
+
+.textlight
+{
+  font-family: Ubuntu;
+  font-size: 1rem;
+  color: white;
+}
+.faceimage
+{
+  border-radius:15%;
+}
+.plainbackground
+{
+  background-color: #fff;
+}

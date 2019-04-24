@@ -1,0 +1,60 @@
+.h1indexBigFontStyle {
+  font-family: Ubuntu;
+  font-size: 5vw;
+  font-weight: bolder;
+  color: #fff;
+  line-height: 1.5;
+  padding-top: 10%; }
+
+.h2indexMidiumFontStyle {
+  font-family: Montserrat;
+  font-size: 2.5vw;
+  font-weight: bold;
+  line-height: 1.25; }
+
+.contentFontStyle {
+  font-family: Ubuntu;
+  font-size: 1.2rem;
+  color: #15317e;
+  line-height: 1.5; }
+
+.contentSubFontStyle {
+  font-family: Montserrat;
+  font-size: 1rem;
+  color: #15317d;
+  line-height: 1.5; }
+
+.footerMsgStyle {
+  font-family: Indie Flower;
+  font-size: 2.5rem;
+  color: orange; }
+
+body {
+  font-family: Ubuntu;
+  color: #fff; }
+
+.logo {
+  color: orange;
+  font-style: italic;
+  font-weight: bold; }
+
+#indexSection {
+  /* background-color: #ffddff; */
+  background: -webkit-gradient(linear, left top, left bottom, from(#4863A0), to(#57FEFF));
+  background: -webkit-linear-gradient(top, #4863A0 0%, #57FEFF 100%);
+  background: -o-linear-gradient(top, #4863A0 0%, #57FEFF 100%);
+  background: linear-gradient(to bottom, #4863A0 0%, #57FEFF 100%); }
+
+.container-fluid {
+  padding: 2% 12%; }
+
+.textlight {
+  font-family: Ubuntu;
+  font-size: 1rem;
+  color: white; }
+
+.faceimage {
+  border-radius: 15%; }
+
+.plainbackground {
+  background-color: #fff; }

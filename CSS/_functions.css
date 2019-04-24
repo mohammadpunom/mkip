@@ -1,0 +1,26 @@
+body {
+  font-family: Ubuntu;
+  color: #fff; }
+
+.logo {
+  color: orange;
+  font-style: italic;
+  font-weight: bold; }
+
+#indexSection {
+  /* background-color: #ffddff; */
+  background: -webkit-gradient(linear, left top, left bottom, from(#4863A0), to(#57FEFF));
+  background: -webkit-linear-gradient(top, #4863A0 0%, #57FEFF 100%);
+  background: -o-linear-gradient(top, #4863A0 0%, #57FEFF 100%);
+  background: linear-gradient(to bottom, #4863A0 0%, #57FEFF 100%); }
+
+.container-fluid {
+  padding: 2% 12%; }
+
+.textlight {
+  font-family: Ubuntu;
+  font-size: 1rem;
+  color: white; }
+
+.faceimage {
+  border-radius: 50%; }

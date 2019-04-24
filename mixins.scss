@@ -1,0 +1,66 @@
+@mixin h1indexBig
+{
+    font-family: Ubuntu;
+    font-size: 5vw;
+    font-weight:bolder;
+    color: #fff;
+    line-height: 1.5;
+    padding-top: 10%;
+}
+
+.h1indexBigFontStyle
+{
+  @include h1indexBig;
+}
+
+@mixin h2indexMidium
+{
+  font-family: Montserrat;
+  font-size: 2.5vw;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.h2indexMidiumFontStyle
+{
+  @include h2indexMidium;
+}
+
+$contentfont: Ubuntu;
+@mixin contectfontdesign
+{
+  font-family: $contentfont;
+  font-size: 1.2rem;
+  color: #15317e;
+  line-height: 1.5;
+
+}
+.contentFontStyle
+{
+  @include contectfontdesign;
+}
+
+$contentsubfont: Montserrat;
+@mixin contentsubfontdesign
+{
+  font-family: $contentsubfont;
+  font-size: 1rem;
+  color: #15317d;
+  line-height: 1.5;
+}
+.contentSubFontStyle
+{
+  @include contentsubfontdesign;
+}
+
+@mixin footermsg
+{
+  font-family: Indie Flower;
+  font-size: 2.5rem;
+  color: orange;
+
+}
+.footerMsgStyle
+{
+  @include footermsg;
+}
